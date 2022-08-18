@@ -1,0 +1,48 @@
+.inputContainer {
+  display: flex;
+  height: 45px;
+  align-items: center;
+  margin-top: 0.5rem;
+}
+
+input {
+  flex: 1;
+  border: none;
+  padding-left: 15px;
+  height: 45px;
+  font-size: 15px;
+  font-weight: 500;
+  letter-spacing: 1.5px;
+  margin-bottom: 0;
+  color: #121212;
+}
+
+::placeholder {
+  color: grey;
+  font-size: 15px;
+  margin-bottom: 0;
+}
+
+input:focus {
+  outline: none;
+}
+
+.searchIcon {
+  height: 45px;
+  width: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  background: rgb(227, 52, 145);
+  background: linear-gradient(
+    30deg,
+    rgba(227, 52, 145, 1) 6%,
+    rgba(252, 69, 98, 1) 66%,
+    rgba(252, 163, 69, 1) 92%
+  );
+}
+
+.searchIcon .MuiSvgIcon-root {
+  font-size: 36px;
+}

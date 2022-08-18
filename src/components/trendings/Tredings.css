@@ -1,0 +1,16 @@
+.trendingContainer {
+  margin-top: 2rem;
+}
+
+.trendingHomeContainer {
+  display: flex;
+  overflow: hidden;
+  height: 150px;
+  margin: 1rem 0;
+}
+
+.trendingHomeContainer img {
+  height: 100%;
+  margin-right: 5px;
+  border-radius: 5px;
+}
